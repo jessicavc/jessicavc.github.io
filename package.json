@@ -1,0 +1,25 @@
+{
+  "name": "jessicavc.github.io-master",
+  "version": "1.0.0",
+  "description": "Portfolio 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicavc/jessicavc.github.io.git"
+  },
+  "author": "Jessica Vaiana-Cavanagh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicavc/jessicavc.github.io/issues"
+  },
+  "homepage": "https://github.com/jessicavc/jessicavc.github.io#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^17.0.1"
+  }
+}
