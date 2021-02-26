@@ -24,12 +24,14 @@ img {
   height: 200px;
 }
 
-.card-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+footer body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+footer main {
+  flex: 1 0 auto;
 }
 
 logo {
