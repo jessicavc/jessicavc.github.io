@@ -23,6 +23,9 @@
 
 <body>
   <header>
+    <div class="parallax-container">
+      <div class="parallax"><img src="japanesegarden.jpg"></div>
+    </div>
     <nav>
       <div class="nav-wrapper light-green">
         <a href="index.html">Jessica Vaiana-Cavanagh</a>
@@ -80,8 +83,15 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-
+  <script>
+    $(document).ready(function () {
+      $('.fixed-action-btn').floatingActionButton();
+    });
+  </script>
+  <script>  $(document).ready(function () {
+      $('.parallax').parallax();
+    });
+  </script>
   <script>
     $(document).ready(function () {
       $('.sidenav').sidenav();
