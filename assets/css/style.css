@@ -1,49 +1,67 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-}
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
 
-h1 {
-  font-size: 35px;
+nav ul a,
+nav .brand-logo {
+  color: #444;
 }
 
 p {
-  text-align: justify;
+  line-height: 2rem;
 }
 
-#main-container {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+.sidenav-trigger {
+  color: #26a69a;
 }
 
-img {
-  float: left;
-  margin-right: 20px;
-  width: 200px;
-  height: 200px;
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
 }
 
-footer body {
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+footer.body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
-footer main {
+footer.main {
   flex: 1 0 auto;
-}
-
-logo {
-  float: right;
-}
-
-card {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.parallax-container {
-  height: 200px;
 }
