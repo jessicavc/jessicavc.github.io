@@ -86,3 +86,8 @@ footer.body {
 footer.main {
   flex: 1 0 auto;
 }
+
+i.fab,
+i.far {
+  color: rgb(44, 42, 42);
+}
