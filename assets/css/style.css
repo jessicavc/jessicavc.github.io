@@ -88,10 +88,7 @@ footer.main {
 }
 
 i.fab,
-i.far {
-  color: rgb(44, 42, 42);
-}
-
-i.material-icons {
+i.far,
+i.fas {
   color: rgb(44, 42, 42);
 }
